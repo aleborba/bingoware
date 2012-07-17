@@ -1,0 +1,103 @@
+Peeling Text
+http://www.fresherimage.com/Tips/PaintShopPro/peelingtext/
+
+Part 1: Creating the image canvas
+
+1. Create a new image, I will use a 300 x 100 image, 72 pixels per inch, white 
+background (or web page background color), 16.7 million colors (24bit).
+
+2. Now we need to add another layer. Click on "Layers" then "New Raster Layer". 
+Click on OK when the Layer Properties window displays to apply the new layer. 
+You should now see a new layer (Layer1) in the Layer Palette window. (If you 
+don't see a Layer Palette window, click on View then Tool bars and place a check 
+in the box next to Layer Palette.) The blend mode should be "Normal" and the 
+opacity should be "100" like in my example image below.
+
+Part 2: Select stroke and fill modes
+
+1. Before applying the text to the image, lets select a fun looking color style. 
+In the "Color Palette" you will see two boxes just below the word "Styles". The 
+top box will stroke (outline) the text according to the color and mode selected 
+in that box. The bottom box (outlined in red in my example image) will fill the 
+text with the color and mode selected in that box. Move the cursor over the top 
+one and quickly click the left mouse button once. This brings up the "Color" 
+window. I selected a medium gray color for the stroke of the text. Lets make 
+sure the fill mode is set to gradient. Move the cursor over the fill mode box 
+and press and hold down the left mouse button until a small fly out window 
+appears. (Or click in the small triangle in the box and the fly out window will 
+open).
+
+Hold the cursor over each fill mode and the description of that mode will 
+display. Click on the Gradient mode. After the fly out window closes you can 
+quickly click the left mouse button with the cursor placed over the gradient 
+fill box and the "Gradient" control window will open.
+
+2. With the "Gradient" control window open, click directly on the example 
+gradient that is displayed or click on the bar next to it. This will bring up 
+some preset gradient fills. I selected the one called "Autumn" at 180 degrees. 
+For now select anyone you like, but that is not transparent. You can tell if 
+it's transparent if you can see a checkerboard pattern showing through the 
+colors. Once you have the gradient fill selected click the OK button to close 
+the window.
+
+Note: you can also select stroke and fill options from the "Text" tool window. 
+
+Part 3: Apply text
+
+1. Click on the "Text" tool icon , its on the main tool bar. Look at the "Layer 
+Palette" box and make sure that the layer we added (Layer1) is the active layer. 
+The active layer will be high-lighted. If its not high-lighted click on it to 
+make it active. Move the cursor over your still blank image and click the left 
+mouse button once to open the "Text" control window. The text control window has 
+too many features to go over in this tutorial. For now choose a font style that 
+is wide and has a fun appearance. I am using Informal011 Blk BT in my example. 
+You may or may not have that font installed on your computer. The size is 48 and 
+I set the kerning to 75. Find the "Create as" area and check anti-alias and 
+floating. Click the OK button when ready.
+
+2. Next click on "Selections" then "Select None". Now click on "Layers" then 
+click on "Duplicate". The "Layer Palette" should now show three layers; 
+Background, Layer1, Copy of Layer1. To help see what is happening, click on the 
+eyeglass icon next to "Copy of Layer1" to turn that layer off for the moment. 
+
+The image will still look the same as both layers are identical. Next click on 
+"Layer1" to make it the active layer. Now click on "Colors" then hold the mouse 
+over "Adjust" then click on "Brightness/ Contrast". 
+
+Lower the "Brightness" control to -255 and click  OK. The letters should be 
+black at this point. Go back and click on the eyeglass icon to turn the top 
+layer back on. Use the "Move" tool to move the top layer (the letters with the 
+color) up and to the left just a little so you can see the shadow below the 
+colored text. Place the "Move" tool over the colored letters and hold down the 
+left mouse button while dragging the text. You should now see an image similar 
+to the one below.
+
+Part 4: "Peeling" the text
+
+1. OK, so you're thinking it looks like a pretty standard image with a drop 
+shadow. But by using this method we have seperated the drop shadow from the 
+text. Now we can apply an effect to the text and the drop shadow separately. In 
+the "Layer Palette" make the layer with the colored text the active layer, it 
+should be "Copy of Layer1" unless you have made any changes.
+
+2. Click on "Effects" then hold the mouse over "Geometric Effects" then click on 
+"Wave". Most effects look best when applied sparingly so use the settings in the 
+example image below (horizontal 1,1 vertical 5,70). Later you can experiment to increase or decrease the 
+peeling effect. Click the OK button when you are ready to proceed.
+
+3. You should now see an image similar to the one below. Don't worry if the 
+shadow and the text are not well aligned, we will fix that in a moment. First, 
+in the "Layer Palette" make the layer with the drop shadow the active layer. 
+Then click on "Effects" then hold the mouse over "Blur" then click on "Blur" or 
+"Blur More" to give the image a feeling of depth. If necessary, use the "Move" 
+tool to move the drop shadow or the colored text around to complete the effect. 
+Just place the move tool over the colored text or the drop shadow, hold down the 
+left mouse button and drag that part of the image to align the text and the 
+shadow.
+
+4. Here is the finished image saved as a JPG image with 25% compression. It 
+looks like the text is peeling up off the page, at least I hope it does!
+
+As is often the case, I serendipitiously "discovered" how to create this effect 
+while trying for a completely different effect. So I encourage you to have fun 
+and experiment with PSP7 to discover other cool effects!

@@ -1,0 +1,95 @@
+Bingoware FAQ
+Last edited: 10 December 03
+view online at : http://bingoware.sf.net/faq.php
+-------------------------------------------
+
+1. Can I use Bingoware to run an online bingo?
+2. Can you modify Bingoware to run an online bingo?
+3. I do not have a web server, or don't know what it is. Is there another option to use Bingoware? 
+4. I tried opening the bingoware pages from Internet Explorer, but nothing works. How come?
+5. I get all kinds of error messages with Bingoware 1.3 and below. Nothing works, what gives?
+6. I get all kinds of error messages with Bingoware 1.4 and above. Nothing works, what gives?
+7. I would really like feature x to be implemented, can you modify/customize Bingoware for my (charitable) company?
+8. What do I do if I have trouble installing Bingoware?
+9. When I print the cards, the background colours do not show, why not?
+10. I want my Bingo to read "xyzab" instead of Bingo on top of each card. Can I do that?
+11. I want my Bingo to run from 1 to 50 or 100 instead of 1 to 75. Can I do that? 
+12. Link Exchange: Can you put a link to my gambling site on your site?
+13. I found a problem with the latest version of Bingoware!
+
+-------------------------------------------
+1. Can I use Bingoware to run an online bingo?
+
+Bingoware is not an online Bingo software. It simply helps one creating bingo cards and running a live bingo in a bingo hall (with the help of a computer).
+
+The fact that the software uses a web server and a web browser is a simple design decision (that I can explain to anyone that cared) and is in no way related to the ability to run a bingo over the internet.
+
+Several essential features are missing from Bingoware to be able to run an online Bingo: 
+
+Bingoware does not track users nor does it allow users/administrator to "login".
+It also requires a human operator to draw or enter drawn numbers. 
+It does not distribute cards to users, but lets you see or print the cards.
+Bingoware does not use secure http. 
+2. Can you modify Bingoware to run an online bingo?
+
+As stated in question 1, several items are missing from Bingoware to be able to do something like online Bingo. I am able to do the modifications required with much work, but I am however reluctant to do so. There are tremendous gains possible from an online gambling venture such as Bingo. Bingoware was not created to a few individuals to make fortunes over the internet. Pricing for such modifications will take that into consideration.
+
+3. I do not have a web server, or don't know what it is. Is there another option to use Bingoware? 
+
+Unfortunately, Bingoware is simply a script, it is not an executable program like Microsoft Word or Adobe Photoshop. It needs a script-interpreting engine to make it work.
+
+A web-server with PHP engine is the host that "understands" the Bingoware script and gives it life. It generates web pages based on the information you give it and the buttons, or links, you click; it behaves as a "real program" would.
+
+I chose to write a script instead of a "real program" because it is a lot faster to write and also simpler. There is no need to write the code that generates the windows, layouts, dialog boxes and other widgets, it is taken care of by the browser, be it Internet Explorer, Netscape Navigator or Opera. It is cross-platform, as there are web servers that will understand PHP scripts for any operating system. On the other hand, it normally runs slower than an application like Microsoft Word or Adobe Photoshop. Bingoware being a fairly small script, you likely will not suffer from the slower speed. 
+
+The logic used in the script, or algorithms, are the same as they would be in a "real program". As such, it would not be difficult to convert the script into a "real" program. However, a bit of work is required, and additional code is needed for the user interface (windows, ..., as above). Since Bingoware is an open-source program, I do not receive any money for such endeavour and my current day-time employment does not allow me enough time for such project. However, anyone is welcome to copy the code and convert it, so long as their program remains free. I have the same limitations myself: any "real program" that I create based on the Bingoware source code must remain free, providing little incentive to start such a project on my spare time. Rather, I chose to focus on improving the current script and add new features.
+
+You have the option of installing a web-server on your PC, which is not that difficult but can be tricky if you are new to it, or find a similar commercial product that would provide you the features you need, at a cost.
+
+I can provide limited assistance in installing web servers, but keep in mind that I am not an expert and could only assist you on a Windows operating system (no experience with Unix or Mac web servers). Furthermore, there are hundreds of web servers that can do the job properly, but am only familiar with a couple. You can probably find enough information to get you started by reading the documentation available for the Web server of your choice, as well as the PHP engine. Also, the Internet has several PHP "get-started" tutorials which will walk you through the steps of installing a web server and running your first script. Once you have a working script, you can "run" Bingoware.
+
+If you decide to give it a try, I recommend the free Sambar web server (http://www.sambar.com/). There is really only one PHP engine, which you can find at http://www.php.net/ and both components are independent. The tricky part is to make them work together through the configuration settings.
+
+4. I tried opening the bingoware pages from Internet Explorer, but nothing works. How come?
+
+You absolutely need a web server in order to interpret the Bingoware files and generate the dynamic content. Opening the files directly from your browser will not work, as the browser cannot interpret the PHP script and generate the dynamic content. Of course, your web server must be capable of interpreting PHP, the scripting language used by Bingoware. If you have never setup a web server, this can be a little tricky. I recommend reading the online documentation for your web server. 
+
+5. I get all kinds of error messages with Bingoware 1.3 and below. Nothing works, what gives?
+
+Bingoware 1.3 and below were developed using a version of PHP which relied of register_globals to be on, which was the default setting in php.ini. From PHP version 4.2, the default setting for register_globals is to be off, which troubles old version of Bingoware.
+Upgrading to the latest version of Bingoware is recommended.
+
+6. I get all kinds of error messages with Bingoware 1.4 and above. Nothing works, what gives?
+
+Bingoware 1.4 and above was developed using a recent version of PHP which uses superglobals. Upgrading to the latest version of PHP is recommended. If you are using an older version of PHP and do not have control of the server, you can download an older version of Bingoware.
+
+7. I would really like feature x to be implemented, can you modify/customize Bingoware for my (charitable) company?
+
+All modification requests seem to come from non-for-profit/charitable companies!? Customizations of the script are available at a cost. The cost is very cheap, however, it is possible that your specific customization be part of a future release of Bingoware.
+
+8. What do I do if I have trouble installing Bingoware?
+
+Contact me! I will do my best to help you installing Bingoware. I can often also generate cards for you if your system is not configured properly and you need a set of cards rapidly.
+
+9. When I print the cards, the background colours do not show. Why not?
+
+This is not a Bingoware problem, in fact, it is not a problem at all. Browsers are set not to print the background colours or images in a page or in a table to save ink. This is a default behaviour that you can change in your browser if the background colours are important to you when you print. In Opera, the recommended browser, choose 'File', 'Print Options...' from the menu. In Internet Explorer, choose the 'Tools' menu, 'Internet Options', the 'Advanced' Tab, Under 'Printing', check 'Print Background Colors and Images'. If you use another browser, it is probably under the File menu as well.
+
+10. I want my Bingo to read xyzab. Can I do that?
+
+Yes! Simply change the letters in the line starting with '$bingoletters' in the file 'constants.php' in the 'include' directory. The name you choose should not have the same letter twice.
+
+11. I want my Bingo to run from 1 to 50 or 100 instead of 1 to 75. Can I do that? 
+
+Yes! Simply change the value of the constant '$maxNumber' in the file 'constants.php' in the 'include' directory. Insure you pick of multiple of 5, as the software is based on 5 columns. Each column will allow numbers ranging one fifth of the total. For example, if you pick fifty, the 'B' column will be populated by numbers from 1 to 10, the 'I' column from 11 to 20, ...
+
+12. Link Exchange: Can you put a link to my gambling site on your site?
+
+NO! Bingoware needs no publicity, it's an open source program. Further, the terms of service of the host, sourceforge.net, prevent its users from linking to profit-sites such as gambling sites. I receive at least one email per week for such a request. I do not support online gambling sites because their sole purpose is to enrich the site owners by addicting the players to gambling.
+
+13. I found a problem with the latest version of Bingoware!
+
+Please let us know! The development team of Bingoware tries it's best to ensure the software is bug free, however, you may have tested Bingoware in a way we have not thought of... Please send us an email and be as specific as possible in explaining the problem you discovered. Thank you!
+
+
+-----------------------------------------------------
