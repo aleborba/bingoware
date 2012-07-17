@@ -1,7 +1,7 @@
 --------------------------------------------------------------------
 Bingoware v1.5
 http://bingoware.sourceforge.net
-Author: Frédéric Demers
+Author: Frederic Demers
 Software testing and new contributed graphics: Mike Suetkamp
 
 10 December 2003
