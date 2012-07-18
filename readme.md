@@ -19,13 +19,13 @@ verify the winning cards.  It allows the user to choose the winning pattern(s).
 Using the Fooble Color Picker script (http://www.flooble.com/scripts/colorpicker.php)
 
 Index:
+
 1. Requirements
 2. Installation Instructions
 3. Key Definitions
 4. Version History (Changelog)
 5. ToDo
 
------------------------------------------------------------------------------------------
 
 1. Requirements:
 -----------------
@@ -44,7 +44,6 @@ installs and configures the most recent Apache web server, PHP and MySQL.
 - approx 125 kB for the script files.  Creating sets of bingo cards
  will use up approx 1.5 kB per card (1000 cards ~= 1.5 MB)
 
---------------------------------------------------------------------
 
 2. Installation Instructions (tested on Windows 98/ME/2000/Ubuntu12.04):
 -------------------------------------------------------------------------
@@ -54,7 +53,6 @@ installs and configures the most recent Apache web server, PHP and MySQL.
 3. The script requires write access in the directory it is installed
 4. Change the configuration parameters from the 'configure' menu item as you wish
 
---------------------------------------------------------------------
 
 3. Key Definitions:
 ---------------------------
@@ -86,7 +84,6 @@ The Manual Mode is meant for people using a different physical random number gen
 as a barrel, lottery balls, ...)  Bingoware then lets you enter the draw directly instead  of
 generating a random number, and will still be able to announce the winners.
 
---------------------------------------------------------------------
 
 4. Version History (Changelog):
 ---------------------------------
@@ -147,7 +144,6 @@ have multiple sets of Bingo cards that do not overwrite one another
 **Version 1.0 (7 April 02)**
 - initial release
 
---------------------------------------------------------------------
 
 5. ToDo (most important first):
 ----------------------------------
